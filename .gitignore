@@ -1,0 +1,16 @@
+# Dados brutos e imagens pesadas
+galaxy-zoo-the-galaxy-challenge/
+*.zip
+*.tar.gz
+
+# Pesos binarios
+models/*.keras
+models/*.h5
+
+# Arquivos temporarios e IDE
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.spyproject/
+.vscode/
+.env
