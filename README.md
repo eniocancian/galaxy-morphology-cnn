@@ -63,4 +63,16 @@ Irregular/Fusão     0.7179    0.6853    0.7012       375
       macro avg     0.8307    0.8313    0.8306      1500
    weighted avg     0.8307    0.8313    0.8306      1500
 
-🔍 Análise de Erros e Diagnóstico AstrofísicoA auditoria dos 253 casos incorretos no conjunto de teste revelou padrões associados à geometria projetada em 2D:Fusões vs. Discos de Borda (60 casos): Caudas de maré gravitacional (tidal tails) geradas durante colisões esticam filamentos de matéria estelar que, na resolução de $128 \times 128$, simulam o perfil linear de discos espirais vistos de perfil.Fusões vs. Elípticas (35 casos): Estágios finais de fusão geram remanescentes amorfos e difusos, que ativam filtros convolucionais associados ao perfil suave das galáxias elípticas.Robustez da classe Espiral: Teve a melhor performance isolada ($F_1 = 0.9335$), com baixa dispersão graças à simetria periódica e à alta frequência espacial dos braços espirais.A auditoria detalhada de cada erro encontra-se em data/relatorio_erros_galaxy_zoo.csv.
+## 🔍 Análise de Erros e Diagnóstico Astrofísico
+
+A auditoria dos **253 casos incorretos** no conjunto de teste revelou padrões associados à geometria projetada em 2D:
+
+1. **Fusões vs. Discos de Borda (60 casos):** Caudas de maré gravitacional (*tidal tails*) geradas durante colisões esticam filamentos de matéria estelar que, na resolução de 128x128, simulam o perfil linear de discos espirais vistos de perfil.
+2. **Fusões vs. Elípticas (35 casos):** Estágios finais de fusão geram remanescentes amorfos e difusos, que ativam filtros convolucionais associados ao perfil suave das galáxias elípticas.
+3. **Robustez da classe Espiral:** Teve a melhor performance isolada (F1 = 0.9335), com baixa dispersão graças à simetria periódica e à alta frequência espacial dos braços espirais.
+
+<p align="center">
+  <img src="reports/figures/piores_erros_classificacao.png" width="95%" alt="Inspeção dos Piores Erros">
+</p>
+
+*A auditoria detalhada de cada erro encontra-se em `data/relatorio_erros_galaxy_zoo.csv`.*
