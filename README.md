@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/TensorFlow-2.15%2B-orange?logo=tensorflow" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/Acurácia_Teste-83.13%25-brightgreen" alt="Accuracy">
+  <img src="https://img.shields.io/badge/Dataset-Galaxy_Zoo_SDSS-indigo" alt="Dataset">
+  <img src="https://img.shields.io/badge/Licença-MIT-green" alt="License">
+</p>
+
 # 🌌 Galaxy Morphology Classification — Galaxy Zoo & Deep Learning
 
 Classificação morfológica automatizada de galáxias utilizando Redes Neurais Convolucionais (CNN) desenvolvidas em **TensorFlow/Keras** sobre observações do *Sloan Digital Sky Survey (SDSS)* via desafio *Galaxy Zoo*.
