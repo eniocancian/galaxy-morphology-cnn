@@ -62,6 +62,14 @@ Irregular/Fusão     0.7179    0.6853    0.7012       375
        accuracy                         0.8313      1500
       macro avg     0.8307    0.8313    0.8306      1500
    weighted avg     0.8307    0.8313    0.8306      1500
+```
+
+<p align="center">
+  <img src="reports/figures/matriz_confusao_galaxy_zoo.png" width="48%" alt="Matriz de Confusão">
+  <img src="reports/figures/metricas_morfologia_galaxias.png" width="48%" alt="Métricas por Classe">
+</p>
+
+---
 
 ## 🔍 Análise de Erros e Diagnóstico Astrofísico
 
